@@ -16,12 +16,15 @@ class From01
     public function format()
     {
         $rtn = '';
-        if(!is_null($this->value)) {
-            if ($this->value == 1)
-                $rtn = 'ΝΑΙ';/*ΕΛΛΗΝΙΚΑ*/
-            if ($this->value == 0)
-                $rtn = 'ΟΧΙ';/*ΕΛΛΗΝΙΚΑ*/
+        if (! is_null($this->value)) {
+            if ($this->value == 1) {
+                $rtn = 'ΝΑΙ';
+            }/*ΕΛΛΗΝΙΚΑ*/
+            if ($this->value == 0) {
+                $rtn = 'ΟΧΙ';
+            }/*ΕΛΛΗΝΙΚΑ*/
         }
+
         return $rtn;
     }
 }
