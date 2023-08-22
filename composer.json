@@ -15,13 +15,14 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "nesbot/carbon": "^2.66"
+        "nesbot/carbon": "^2.0",
+        "php": "^8.1"
     },
     "require-dev": {
-        "pestphp/pest": "^1.20",
-        "laravel/pint": "^1.2",
-        "spatie/ray": "^1.28"
+        "roave/security-advisories": "dev-latest",
+        "pestphp/pest": "^2.0",
+        "laravel/pint": "^1.0",
+        "spatie/ray": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -45,6 +46,6 @@
             "phpstan/extension-installer": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
